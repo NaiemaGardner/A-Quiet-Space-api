@@ -1,11 +1,11 @@
-#!/bin/sh
+#destroy.sh
 
 API="http://localhost:4741"
-URL_PATH="/examples"
+URL_PATH="/entries"
 
 curl "${API}${URL_PATH}/${ID}" \
   --include \
-  --request GET \
+  --request DELETE \
   --header "Authorization: Bearer ${TOKEN}"
 
 echo

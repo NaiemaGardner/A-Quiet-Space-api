@@ -129,14 +129,14 @@ describe('Users', () => {
         })
     })
 
-    it('the token should allow you to GET /examples', done => {
+    it('the token should allow you to GET /entries', done => {
       chai.request(server)
-        .get('/examples')
+        .get('/entries')
         .set('Authorization', `Token token=${token}`)
         .end((e, res) => {
           res.should.have.status(200)
-          res.body.should.have.property('examples')
-          res.body.examples.should.be.a('array')
+          res.body.should.have.property('entries')
+          res.body.entries.should.be.a('array')
           done()
         })
     })

@@ -1,7 +1,7 @@
-#!/bin/bash
+#update.sh
 
 API="http://localhost:4741"
-URL_PATH="/examples"
+URL_PATH="/entries"
 
 curl "${API}${URL_PATH}/${ID}" \
   --include \
@@ -9,7 +9,8 @@ curl "${API}${URL_PATH}/${ID}" \
   --header "Content-Type: application/json" \
 --header "Authorization: Bearer ${TOKEN}" \
 --data '{
-    "example": {
+    "entry": {
+      "title": "'"${TITLE}"'",
       "text": "'"${TEXT}"'"
     }
   }'
