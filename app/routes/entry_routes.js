@@ -28,8 +28,23 @@ const requireToken = passport.authenticate('bearer', { session: false })
 const router = express.Router()
 
 // INDEX
-// GET /entries
+// GET ALL /entries
 router.get('/entries', requireToken, (req, res, next) => {
+  Entry.find()
+    .then(entries => {
+      // `entries` will be an array of Mongoose documents
+      // we want to convert each one to a POJO, so we use `.map` to
+      // apply `.toObject` to each one
+      return entries.map(entry => entry.toObject())
+    })
+    // respond with status 200 and JSON of the entries
+    .then(entries => res.status(200).json({ entries: entries }))
+    // if an error occurs, pass it to the handler
+    .catch(next)
+})
+
+// GET MY /entries/:id
+router.get('/entries/:id', requireToken, (req, res, next) => {
   Entry.find()
     .then(entries => {
       // `entries` will be an array of Mongoose documents
