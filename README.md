@@ -25,9 +25,8 @@ The project requirements were used to inspire the flow of the application. Since
 
 ### Technologies Used
 
+- Express API
 - MongoDB
-- API Express
-- Handlebars
 
 ### Unsolved Problems
 
