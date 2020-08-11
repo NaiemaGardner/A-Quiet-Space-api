@@ -25,9 +25,8 @@ The project requirements were used to inspire the flow of the application. Since
 
 ### Technologies Used
 
+- Express API
 - MongoDB
-- API Express
-- Handlebars
 
 ### Unsolved Problems
 
@@ -36,4 +35,4 @@ In future iterations I would like to allow users to be able to CRUD comments for
 ## Images
 
 #### ERD:
-![Entity Relationship Diagram](https://imgur.com/mnWB2pQ)
+[Entity Relationship Diagram](https://imgur.com/mnWB2pQ)
