@@ -35,4 +35,4 @@ In future iterations I would like to allow users to be able to CRUD comments for
 ## Images
 
 #### ERD:
-![Entity Relationship Diagram](https://imgur.com/mnWB2pQ)
+[Entity Relationship Diagram](https://imgur.com/mnWB2pQ)
