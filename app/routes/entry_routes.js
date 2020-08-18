@@ -109,21 +109,21 @@ router.patch('/entries/:id', requireToken, removeBlanks, (req, res, next) => {
     .catch(next)
 })
 
-// // DESTROY
+// DESTROY
 // DELETE /entries/5a7db6c74d55bc51bdf39793
-// router.delete('/entries/:id', requireToken, (req, res, next) => {
-//   Entry.findById(req.params.id)
-//     .then(handle404)
-//     .then(entry => {
-//       // throw an error if current user doesn't own `entry`
-//       requireOwnership(req, entry)
-//       // delete the entry ONLY IF the above didn't throw
-//       entry.deleteOne()
-//     })
-//     // send back 204 and no content if the deletion succeeded
-//     .then(() => res.sendStatus(204))
-//     // if an error occurs, pass it to the handler
-//     .catch(next)
-// })
+router.delete('/entries/:id', requireToken, (req, res, next) => {
+  Entry.findById(req.params.id)
+    .then(handle404)
+    .then(entry => {
+      // throw an error if current user doesn't own `entry`
+      requireOwnership(req, entry)
+      // delete the entry ONLY IF the above didn't throw
+      entry.deleteOne()
+    })
+    // send back 204 and no content if the deletion succeeded
+    .then(() => res.sendStatus(204))
+    // if an error occurs, pass it to the handler
+    .catch(next)
+})
 
 module.exports = router
