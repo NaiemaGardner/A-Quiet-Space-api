@@ -1,6 +1,6 @@
 # A Quiet Space: A Self-Help Resource
 
-A place for users to create, review, update and delete written blog-style posts. Users will be able to publish works privately for self review or publically to share. Posts will be searchable by keywords. It is intended to emulate a library space, great for brain storming, idea inspiration, issue venting and general stress relief. This is a resource that I felt I needed throughout my educational career but could not find, so I would like to bring it life!
+A place for users to create, review, update and delete written blog-style posts. A Quiet Space is intended to emulate a library space, great for brain storming, idea inspiration, issue venting and general stress relief. This is a resource that I felt I needed throughout my educational career but could not find, so I would like to bring it life!
 
 ## Important Links
 
@@ -20,7 +20,7 @@ The project requirements were used to inspire the flow of the application. Since
 3. As a user I want to know that I have signed in successfully so that I may begin using the application.
 4. As a user I want to change my password so that I may protect my account's privacy.
 5. As a user I want to create, review, update and delete my posts so that I may control the flow of data on my account.
-6. As a user I want to search for and review posts made by other users so that I may gain inspiration.
+6. As a user I want to review posts made by other users so that I may gain inspiration and/or support.
 7. As a user I want to sign-out successfully so that I may protect my account's privacy.
 
 ### Technologies Used
@@ -30,7 +30,7 @@ The project requirements were used to inspire the flow of the application. Since
 
 ### Unsolved Problems
 
-In future iterations I would like to allow users to be able to CRUD comments for existing blog posts so that the application has more of a community feel to it as well as improve upon the styling and flow of the application's front end.
+In future iterations I would like to allow users to make private posts for self review only or public posts to add to the site's collection. Users will also be able to CRUD comments for existing blog posts so that the application has more of a community feel to it. I would also love to boost the user's experience by allowing each user to apply styling personalizations to their space within the application.  
 
 ## Images
 
