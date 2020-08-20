@@ -116,7 +116,7 @@ router.delete('/entries/:id', requireToken, (req, res, next) => {
     .then(handle404)
     .then(entry => {
       // throw an error if current user doesn't own `entry`
-      requireOwnership(req, entry)
+      // requireOwnership(req, entry)
       // delete the entry ONLY IF the above didn't throw
       entry.deleteOne()
     })
