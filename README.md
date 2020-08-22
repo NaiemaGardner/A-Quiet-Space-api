@@ -1,6 +1,6 @@
 # A Quiet Space: A Self-Help Resource
 
-A place for users to create, review, update and delete written blog-style posts. A Quiet Space is intended to emulate a library space, great for brain storming, idea inspiration, issue venting and general stress relief. This is a resource that I felt I needed throughout my educational career but could not find, so I would like to bring it life!
+A place for users to create, review, update and delete written blog-style posts. A Quiet Space is intended to emulate a library space, great for brain storming, idea inspiration, issue venting and general stress relief. This is a resource that I felt I needed throughout my educational career but could not find, so I would like to bring it life! 
 
 ## Important Links
 
