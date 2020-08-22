@@ -5,8 +5,8 @@ A place for users to create, review, update and delete written blog-style posts.
 ## Important Links
 
 - [Client Repository](https://github.com/HarlemHubLive/A-Quiet-Space-client)
-- [Deployed API](https://harlemhublive.github.io/A-Quiet-Place-api/)
 - [Deployed Client](https://harlemhublive.github.io/A-Quiet-Place-client/)
+- [Deployed API](https://harlemhublive.github.io/A-Quiet-Place-api/)
 - [Requirements](https://docs.google.com/document/d/15s8rVgkyDFwYi1Fb26WrWVJZu8ImeXLNJki4ELyH8LY/edit?usp=sharing)
 
 ## Planning Story
@@ -30,7 +30,7 @@ The project requirements were used to inspire the flow of the application. Since
 
 ### Unsolved Problems
 
-In future iterations I would like to allow users to make private posts for self review only or public posts to add to the site's collection. Users will also be able to CRUD comments for existing blog posts so that the application has more of a community feel to it. I would also love to boost the user's experience by allowing each user to apply styling personalizations to their space within the application.  
+In future iterations I would like to allow users to make private posts for self review only or public posts to add to the site's collection. Users will also be able to CRUD comments for existing blog posts so that the application has more of a community feel to it. I would also love to boost the user's experience by allowing each user to apply styling personalizations to their space within the application.
 
 ## Images
 
