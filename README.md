@@ -1,12 +1,12 @@
 # A Quiet Space: A Self-Help Resource
 
-A place for users to create, review, update and delete written blog-style posts. A Quiet Space is intended to emulate a library space, great for brain storming, idea inspiration, issue venting and general stress relief. This is a resource that I felt I needed throughout my educational career but could not find, so I would like to bring it life! 
+A place for users to create, review, update and delete written blog-style posts. A Quiet Space is intended to emulate a library space, great for brain storming, idea inspiration, issue venting and general stress relief. This is a resource that I felt I needed throughout my educational career but could not find, so I would like to bring it life!
 
 ## Important Links
 
-- [Client Repository](https://github.com/HarlemHubLive/A-Quiet-Space-client)
-- [Deployed Client](https://harlemhublive.github.io/A-Quiet-Place-client/)
-- [Deployed API](https://harlemhublive.github.io/A-Quiet-Place-api/)
+- [Client Repository](https://github.com/NaiemaGardner/A-Quiet-Space-client)
+- [Deployed Client](https://naiemagardner.github.io/A-Quiet-Space-client/)
+- [Deployed API](https://safe-bayou-76502.herokuapp.com)
 - [Requirements](https://docs.google.com/document/d/15s8rVgkyDFwYi1Fb26WrWVJZu8ImeXLNJki4ELyH8LY/edit?usp=sharing)
 
 ## Planning Story
@@ -25,8 +25,10 @@ The project requirements were used to inspire the flow of the application. Since
 
 ### Technologies Used
 
+- Node
 - Express API
 - MongoDB
+- Mongoose
 
 ### Unsolved Problems
 
