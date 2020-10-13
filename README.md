@@ -25,10 +25,15 @@ The project requirements were used to inspire the flow of the application. Since
 
 ### Technologies Used
 
+<<<<<<< HEAD
 - Node
 - Express API
 - MongoDB
 - Mongoose
+=======
+- Express API
+- MongoDB
+>>>>>>> 2ebc8191917c095a4bed55b15da9dd4f17b73b3d
 
 ### Unsolved Problems
 
